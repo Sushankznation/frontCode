@@ -1,0 +1,88 @@
+body {
+    background-color: #060606;
+    font-family: "Trirong", serif;
+}
+nav{
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+.logo{
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    border-radius: 5px 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+#output {
+    background-color: white;
+}
+
+#html-code, #css-code, #js-code {
+    background-color: #1D1E22;
+    color: #9A6029;
+    font-size: 20px;
+}
+#css-code{
+    color: #60735A;
+}
+textarea {
+    caret-color: rgb(235, 235, 235);
+    border: 5px solid black;
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 32%;
+    height: 38vh;
+    resize: none;
+}
+#output{
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+}
+button{
+    background-color: #1D1E22;
+    color: #fff;
+    border:1px solid rgba(255, 255, 255, 0.205);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.8%;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    margin-bottom: 0.5%;
+    box-shadow: 0 0 5px #ccc;
+}
+button:hover{
+    background-color:whitesmoke;
+    color: #000000;    
+    transition:1s;
+    box-shadow: 0 0 30px #ccc;
+    /* border-radius: 50%; */
+    
+
+}
+label{
+    color: white;
+}
+footer{
+    color: white;
+   text-align: center;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
